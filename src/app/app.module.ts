@@ -47,9 +47,11 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 
 import { ZComponentComponent } from './components/z-component/z-component.component';
 import { ZDirectiveDirective } from './directives/z-directive.directive';
+import { ReactiveformsComponent } from './components/reactiveforms/reactiveforms.component';
+import { TemplateformsComponent } from './components/templateforms/templateforms.component';
 
 @NgModule({
-  declarations: [AppComponent, ZComponentComponent, ZDirectiveDirective],
+  declarations: [AppComponent, ZComponentComponent, ZDirectiveDirective, ReactiveformsComponent, TemplateformsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
